@@ -1,0 +1,49 @@
+body {
+    text-align: center
+}
+.main {
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px
+}
+h1 {
+    width: 100%;
+    font-size: 50px;
+    /* background-color: #1f0101; */
+    /* color: #dac7c7 */
+}
+
+label {
+    font-weight: 700;
+    /* color: #461c61 */
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e8d8c0 */
+}
+
+#gen {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px
+}
+
+.show {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.com {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: none
+}
